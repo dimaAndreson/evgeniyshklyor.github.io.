@@ -1,0 +1,96 @@
+#main-link {
+  color: ; /* Цвет для ссылки "Главная" */
+}
+#maint-link {
+  color: ; /* Цвет для ссылки "Главная" */
+}
+.event-link {
+  color: blue; /* Цвет для ссылки "Мероприятия" */
+}
+p {
+  text-align: center;
+}
+.parent {
+  display: flex;
+  justify-content: center; /* по горизонтали */
+  flex-direction: column; /* чтобы содержимое шло сверху вниз */
+  align-items: center; /* по горизонтали */
+  margin: 20px 0; /* отступы по желанию */
+}
+
+.child {
+  max-width: 800px; /* ограничение ширины, если нужно */
+  padding: 10px;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover, nav a.active {
+   text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    min-height: 60vh; /* Чтобы футер не поднимался наверх */
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
